@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CadastroContatoActivity"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:id="@+id/titulo_tela"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Cadastro"
+        android:textSize="25dp"
+        android:gravity="center"
+
+
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutTxtNome"
+        android:textColorHint="@color/colorPrimary"
+        >
+        <EditText
+            android:id="@+id/txt_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"
+            android:inputType="text"
+
+            android:textColorHint="@color/colorPrimary"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutTxtEndereco"
+        android:textColorHint="@color/colorPrimary"
+        >
+        <EditText
+            android:id="@+id/txt_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Endereço"
+            android:inputType="text"
+
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:textColorHint="@color/colorPrimary"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutTxtTelefone"
+        android:textColorHint="@color/colorPrimary"
+        >
+        <EditText
+            android:id="@+id/txt_telefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Telefone"
+            android:inputType="number"
+
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:textColorHint="@color/colorPrimary"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutTxtEmail"
+        android:textColorHint="@color/colorPrimary"
+        >
+
+        <EditText
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:inputType="text"
+
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:textColorHint="@color/colorPrimary"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutTxtLinkedin"
+        android:textColorHint="@color/colorPrimary"
+        >
+
+        <EditText
+            android:id="@+id/txt_linkedin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Endereço Linkedin"
+            android:inputType="text"
+
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:textColorHint="@color/colorPrimary"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+</LinearLayout>
